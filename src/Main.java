@@ -229,6 +229,7 @@ public class Main {
         try {
             FileWriter writer = new FileWriter("experimento4.txt");
             writer.write("N,Tiempo_ABB,Tiempo_Splay\n");
+            writer.flush(); // forzar escritura del header
 
             //para cada N
             for (int N = 100000; N <= 1000000; N += 100000) {
@@ -268,6 +269,7 @@ public class Main {
                 long tiempoSplay = System.nanoTime() - startTime;
 
                 writer.write(N + "," + tiempoABB + "," + tiempoSplay + "\n");
+                writer.flush(); // forzar escritura después de cada N
                 System.out.println("Completado N = " + N);
             }
 
@@ -282,8 +284,8 @@ public class Main {
         //ejecutamos los experimentos secuencialmente
         //System.out.println("Iniciando Experimento 1...");
         //experimento1();
-        System.out.println("Iniciando Experimento 2...");
-        experimento2();
+        //System.out.println("Iniciando Experimento 2...");
+        //experimento2();
         //System.out.println("Iniciando Experimento 3...");
         //experimento3();
         System.out.println("Iniciando Experimento 4...");
