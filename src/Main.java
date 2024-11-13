@@ -282,12 +282,12 @@ public class Main {
     //funcion main
     public static void main(String[] args) {
         //ejecutamos los experimentos secuencialmente
-        //System.out.println("Iniciando Experimento 1...");
-        //experimento1();
-        //System.out.println("Iniciando Experimento 2...");
-        //experimento2();
-        //System.out.println("Iniciando Experimento 3...");
-        //experimento3();
+        System.out.println("Iniciando Experimento 1...");
+        experimento1();
+        System.out.println("Iniciando Experimento 2...");
+        experimento2();
+        System.out.println("Iniciando Experimento 3...");
+        experimento3();
         System.out.println("Iniciando Experimento 4...");
         experimento4();
         System.out.println("Todos los experimentos completados.");
