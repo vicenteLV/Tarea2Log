@@ -59,10 +59,9 @@ Los resultados de los experimentos se almacenan en archivos `.txt` en formato CS
 
 1. Clonar el repositorio o descargar el código fuente.
 2. Abrir una terminal en la carpeta del proyecto.
-3. Navegar hasta la carpeta `src`.
-4. Abrir el archivo `Main.java` y configurar el tamaño de entrada y la ubicación donde se desean guardar los resultados.
-6. Ejecutar el archivo `Main.java` (Recomendación: Ejecutar el programa en un IDE como IntelliJ).
-7. El archivo ejecutará los experimentos y generará los archivos de resultados en la carpeta `datosUsados` (Ejemplo: `datosUsados/experimento1.txt`).
+3. Navegar hasta la carpeta `src/Tarea2`.
+4. Abrir el archivo `Main.java` y ejecutar la función `main`, que correrá los experimentos secuencialmente (Recomendación: Ejecutar el programa en un IDE como IntelliJ).
+5. El archivo ejecutará los experimentos y generará los archivos de resultados en `src` (los archivos en la carpeta `datosUsados`, como `datosUsados/experimento1.txt` fueron puestos manualmente ahí).
 
 ## Autores
 
